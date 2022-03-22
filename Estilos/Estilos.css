@@ -3,6 +3,7 @@ body {
 }
 Header {
     display: flex;
+
 }
 
 #Titulo {
@@ -27,13 +28,18 @@ ul {
     color: black;
 }
 nav li {
-    display:inline;
-    margin-left: 20px;
+    float:left;
+    width:42px;
+    padding:5px 15px;
+    background-color:#fcdbe6;
+    border:2px solid #fac9d9;
+    text-align: Left;
+
 }
 
 #Pelis {
     position: absolute;
-    left: 250px;
+    left: 223px;
     top: 60px;
     font-family: 'Inspiration', cursive;
     font-size: 35px;
@@ -41,35 +47,155 @@ nav li {
 }
 
 #Rank {
-    border: 5px solid black;
+    border: 5px solid #fac9d9;
     margin: 1px;
-    width: 120px;
-    background-color: black;
+    width: 1280px;
+    height: 440px;
+    background-color: #fcdbe6;
     font-family: 'Inspiration';
     color:rgb(232, 30, 30);
-    font-size: 25px;
+    font-size: 32px;
+    
 }
 
 #Favs {
     position: absolute;
-    left: 680px;
+    left: 470px;
     top: 150px;
+    color:rgb(232, 30, 30);
+    font-family: 'Inspiration';
+    font-size: 30px;
 }
 
 #Favslist {
     position: absolute;
-    left: 600px;
+    left: 400px;
     top: 180px;
 }
 
 #Lupon {
-    width: 200px;
+    width: 180px;
 }
 
 #Cobra {
-    width: 200px;
+    width: 180px;
 }
 
 #Erase {
-    width: 200px;
+    width: 180px;
+}
+
+#Tabla, th, td {
+    border: 1px solid black;
+
+}
+
+#Series {
+    font-size: 50px;
+    font-family: 'Inspiration', cursive;
+    color: rgb(232, 30, 30);
+    max-height: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#Fondo {
+    background-color: #fcdbe6;
+    border-radius: 6px;
+    border: 5px solid #fac9d9;
+}
+
+#TRank {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    font-family: 'Inspiration', cursive;
+    font-size: 30px;
+    color:rgb(232, 30, 30);
+}
+
+#Razon {
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    max-width: 600px;
+    max-height: 150px;
+    border: 2px solid black;
+    background-color: #FF813E;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+#Sabias {
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    max-width: 600px;
+    max-height: 150px;
+    border: 2px solid black;
+    background-color: #FF813E;
+    text-align: center; 
+}
+
+#Lupon2 {
+    position: absolute;
+    top: 230px;
+    height: 200px;
+    width: 300px;
+}
+
+#Titulo2 {
+    font-family: 'Inspiration', cursive;
+    margin-top: 2px;
+    font-size: 55px;
+    color: rgb(232, 30, 30)
+}
+
+#dl {
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    font-family: cursive;
+    border: 2px solid black;
+    background-color: #fcdbe6;
+    padding: 10px;
+}
+
+#Argumento {
+    position: absolute;
+    top: 200px;
+    left: 870px;
+    width: 450px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: #fcdbe6;
+    padding: 10px;
+}
+
+#Resena {
+    position: absolute;
+    top: 550px;
+    left: 75px;
+    width: 1200px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #fcdbe6;
+
+}
+   
+#footer2 {
+    position: absolute;
+    top: 1100px;
+}
+
+#Video {
+    position: absolute;
+    top: 790px;
+    left: 400px;
+}
+
+#Imagenes {
+    padding-top: 20px;
+    padding-left: 20px;
 }
